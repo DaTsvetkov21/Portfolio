@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+a:hover,
+a:focus {
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+    width: auto;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    display: block;
+    font-size: 45px;
+    padding-left: 100px;
+    padding-top: 600px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+header {
+    height: 800px;
+    background-color:  #1E1010;
+    background-image: url("img/bg.jpg");
+    color: white;
+
+}
+
+.navigator {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+.navigator ul {
+    position: relative;
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    background-color:  #1E1010;
+    height: 45px;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.navigator a {
+    display: flex;
+    color: white;
+    width: 120px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    height: 500px;
+    background-color: #CBD0D2;
+}
+
+.img_about {
+    display: flex;
+    position: relative;
+    margin: 50px 50px 50px 150px;
+    width: 800px;
+
+}
+
+.img1 {
+    position: relative;
+    padding-left: 100px;
+    height: 350px;
+    z-index: 2;
+    top: 50px;
+    left: 150px;
+}
+
+.img2 {
+    position: relative;
+    padding-left: 100px;
+    height: 350px;
+    width: 400px;
+    z-index: 1;
+    left: -500px;
+}
+
+.text_about {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    right: 150px;
+    top: 80px;
+    width: 800px;
+    height: auto;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    background-color: #CBD0D2;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+.project-1 {
+    height: 350px;
+    width: 500px;
+    margin: 5px;
+    text-align: center;
+
+}
+.project-2 {
+    height: 350px;
+    width: 500px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+.contacts {
+    text-align: center;
+    margin: 10px;
+}
+
+.link {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.link a {
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color:  #1E1010;
+    color: white;
+}
