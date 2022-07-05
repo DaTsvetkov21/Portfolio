@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
-a:hover,
-a:focus {
-    background: white;
-    color: black;
-    font-weight: bold;
+
 }
 
 body {
@@ -158,3 +154,8 @@ footer {
     background-color:  #1E1010;
     color: white;
 }
+a:hover,
+a:focus {
+    background: white;
+    color: black;
+    font-weight: bold;
